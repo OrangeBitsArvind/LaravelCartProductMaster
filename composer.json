@@ -1,0 +1,26 @@
+{
+    "name": "orangebitsindia/laravel-cart-product-master",
+    "description": "Product Master For Shopping Cart",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arvind",
+            "email": "arvind.kapse@orangebitsindia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OrangeBitsIndia\\LaravelCartProductMaster\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OrangeBitsIndia\\LaravelCartProductMaster\\LaravelCartProductMasterServiceProvider"
+            ]
+        }
+    }    
+}
